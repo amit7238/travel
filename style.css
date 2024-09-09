@@ -1,0 +1,393 @@
+nav{
+    width: 100%;
+    height: 70px;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.main1{
+    width: 100%;
+    height: 150vh;
+    background-color: aqua;
+    background-image:linear-gradient(rgb(0, 0, 0,0.4),rgb(0, 0, 0,0.4)), url(https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/camping-min.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    filter: contrast(75%);
+
+}
+.main1mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:70px;
+    padding: 120px 0;
+    animation: main1mid 1s linear forwards;
+}
+@keyframes main1mid{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.main1 button:hover{
+    background-color: white;
+    color: black;
+}
+.main1 button{
+    font-size: 20px;
+    font-weight: 800;
+    height: 70px;
+    width: 240px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px;
+}
+.main2{
+    height: 350px;
+    width: 100%;
+    background-color: #293233;
+    position: relative;
+
+}
+.main2mid{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    /* background-color: #11cfe4; */
+    gap: 20px;
+    justify-content: center;
+    position: absolute;
+    top: -90px;
+    animation: main2mid 1.5s linear forwards;
+}
+@keyframes main2mid{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.main2box1{
+    height: 300px;
+    width: 260px;
+    border: 5px solid #f58d54;
+    background-color: #293233;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.main2box2{
+    height: 300px;
+    width: 260px;
+    border: 5px solid #f58d54;
+    background-color: #293233;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+.main2box3{
+    height: 300px;
+    width: 260px;
+    border: 5px solid #f58d54;
+    background-color: #293233;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.main2box4{
+    height: 300px;
+    width: 260px;
+    border: 5px solid #f58d54;
+    background-color: #293233;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.main3{
+    width: 100%;
+    height: 125vh;
+    background-color:#293233;
+    display: flex;
+}
+    .main3left{
+        width: 50%;
+        height: 100%;
+        background-color:#293233 ;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px;
+}
+.main3leftanimation{
+    /* width: 50%; */
+    height: 100%;
+    background-color:#293233 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    animation: main3left 1s linear forwards;
+    margin-right: 150px;
+}
+@keyframes main3left{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(80px);
+    }
+}
+.main3right{
+    width: 50%;
+    height: 100%;
+    background-color:#293233 ;
+}
+.main3rightanimation{
+    position: relative;
+
+}
+.main3rightbox1{
+    width: 200px;
+    height: 200px;
+    border: 30px solid coral;
+    background-color: transparent;
+    border-radius: 100%;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    animation: main3rightbox1 .9s linear forwards;
+}
+@keyframes main3rightbox1{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.main3rightbox2{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/452545.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    border-radius: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 125px;
+    right: 95px;
+    animation: main3rightbox2 1.2s linear forwards;
+}
+@keyframes main3rightbox2{
+    0%{
+        transform: scale(0) rotate(90deg);
+    }
+    100%{
+        transform: scale(1) rotate(0);
+    }
+}
+.main3rightbox3{
+    width: 100px;
+    height: 100px;
+    border: 20px solid coral;
+    border-radius: 100%;
+    background-color: transparent;
+    z-index: 2;
+    position: absolute;
+    top: 270px;
+    left: -70px;
+    animation: main3rightbox3 .9s linear forwards;
+}
+@keyframes main3rightbox3{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.main3left button{
+    width: 250px;
+    height: 65px;
+    border-radius: 30px;
+    border: 3px solid coral;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    color: #f58d54;
+}
+.main3left button:hover{
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+}
+.main4{
+    width: 100%;
+    height: 160vh;
+    background-color: #293233;
+    margin-top: 5px;
+    position: relative;
+}
+.main4box1{
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/photo-1418065460487-3e41a6c84dc5.jpg);
+    position: absolute;
+    top: 105px;
+    left: 150px;
+    animation: main4box1 1s linear forwards;
+}
+@keyframes main4box1{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.main4box2{
+    width: 700px;
+    height: 700px;
+    background-color: aqua;
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/photo-1504870712357-65ea720d6078.jpg);
+    position: absolute;
+    border: 10px solid white;
+    top: 100px;
+    right: 50px;
+    
+    animation: main4box2 .7s linear forwards;
+}
+@keyframes main4box2{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-100px);
+    }
+}
+.main4box3{
+    width: 250px;
+    height: 250px;
+    border: 40px solid #435152;
+    border-radius: 100%;
+    background-color: transparent;
+    position: absolute;
+    right: 100px;
+    bottom: 100px;
+    animation: main4box3 .7s linear forwards;
+}
+@keyframes main4box3{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.main4box4{
+    width: 120px;
+    height: 120px;
+    border: 20px solid coral;
+    border-radius: 100%;
+    position: absolute;
+    background-color: transparent;
+    left: 70px;
+    top: 450px;
+    animation: main4box4 .7s linear forwards;
+}
+@keyframes main4box4{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(70px);
+    }
+}
+.main4box5{
+    width: 365px;
+    height: 365px;
+    border: 20px solid coral;
+    border-radius: 100%;
+    position: absolute;
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/5380758/images/photo-1483197452165-7abc4b248905.jpg);
+    background-position: center;
+    background-size: cover;
+    top: 500px;
+    left: 260px;
+    animation: main4box5 1s linear forwards;
+}
+@keyframes main4box5{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+.main5{
+    width: 100%;
+    height: 400px;
+    background-color: #293233;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main5mid{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    
+}
+.main5 button{
+    height: 60px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: 2px solid white;
+    background-color: #293233;
+    color: white;
+}
+.main5 button:hover{
+    background-color:white;
+    color: black;
+}
+.main5{
+    width: 100%;
+    height: 350px;
+    background-color: #293233;
+}
